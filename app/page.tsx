@@ -98,13 +98,43 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Designing inhabitable systems that integrate digital, economic,
-            democratic, and political principles into permanent structures for
-            living and community organization.
+            Creating unified systems that bridge philosophy and practice—where
+            technology serves human connection, participation becomes default,
+            and collective flourishing emerges through lived experience.
           </motion.p>
         </header>
 
         <main className="space-y-32">
+          {/* Artist Introduction */}
+          <section>
+            <h2 className="text-2xl font-light mb-8 border-b border-zinc-800 pb-2">
+              The Artist
+            </h2>
+            <div className="max-w-2xl">
+              <p className="text-zinc-400 mb-6">
+                Henophilia operates as the systemic art practice of Julian
+                Nalenz, whose trajectory from early technological immersion to
+                philosophical inquiry shapes his approach to system design.
+                Beginning programming at age 11 and later pursuing computer
+                science studies across Munich and Stockholm, Nalenz developed a
+                foundation in structured thinking while recognizing its
+                limitations.
+              </p>
+              <p className="text-zinc-400">
+                At 19, he co-founded Divizend, applying technical expertise to
+                financial systems. However, by 22, his perspective expanded
+                beyond technological solutionism toward a more integrated
+                understanding of human flourishing. At age 24, this evolution
+                culminated in Henophilia's distinctive methodology—creating
+                inhabitable systems that honor the full spectrum of human
+                experience rather than reducing it to mechanical efficiency or
+                societal norms. His work consistently refuses false dichotomies
+                between technological advancement and embodied humanity, instead
+                building frameworks where both can mutually reinforce.
+              </p>
+            </div>
+          </section>
+
           {/* About Section */}
           <section>
             <h2 className="text-2xl font-light mb-8 border-b border-zinc-800 pb-2">
