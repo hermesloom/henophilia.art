@@ -14,7 +14,6 @@ import en from "@/lib/translations/en";
 import de from "@/lib/translations/de";
 
 export default function Home() {
-  const [isVisible, setIsVisible] = useState(true);
   const [language, setLanguage] = useState<"en" | "de">("en");
   const translations: { [key: string]: Translation } = { en, de };
   const t = translations[language];
@@ -65,10 +64,22 @@ export default function Home() {
         </div>
 
         <header className="mb-24">
-          <h1 className="text-6xl sm:text-8xl font-extralight tracking-tighter mb-6">
+          <motion.h1
+            className="text-6xl sm:text-8xl font-extralight tracking-tighter mb-6"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
             HENOPHILIA
-          </h1>
-          <p className="text-sm text-zinc-400 max-w-md">{t.tagline}</p>
+          </motion.h1>
+          <motion.p
+            className="text-sm text-zinc-400 max-w-md"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+          >
+            {t.tagline}
+          </motion.p>
         </header>
 
         <main className="space-y-32">
