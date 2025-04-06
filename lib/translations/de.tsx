@@ -85,10 +85,10 @@ const de: Translation = {
     connect: {
       title: "Kontakt",
       paragraph:
-        "Für Anfragen zu Implementierungen, Gemeinschaftsintegration oder beauftragter Systementwicklung für dauerhafte Nutzung nutzen Sie bitte die Kontaktinformationen unten.",
+        "Für Anfragen zu Zusammenarbeiten oder um Hi zu sagen, nutze bitte die folgenden Kontaktinformationen.",
       email: "E-Mail:",
-      location: "Standort:",
-      locationValue: "Luttmissen, Deutschland",
+      location: "Standort (letzte Aktualisierung am 06.04.2025):",
+      locationValue: "Lissabon, Portugal",
       social: {
         instagram: "Instagram",
         bluesky: "Bluesky",
