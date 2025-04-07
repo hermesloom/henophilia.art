@@ -42,6 +42,7 @@ export type Translation = {
         instagram: string;
         bluesky: string;
         email: string;
+        blog: string;
       };
     };
   };
