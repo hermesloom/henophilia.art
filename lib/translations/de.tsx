@@ -27,7 +27,19 @@ const de: Translation = {
       glücklicherer und gesünderer Menschen fördern. Eines meiner wichtigsten
       Werkzeuge ist das Beobachten, wie Menschen tatsächlich sind und welche
       gesellschaftlichen Normen und Tabus uns daran hindern, unser volles
-      Potenzial zu entfalten.
+      Potenzial zu entfalten. Insbesondere fasziniert mich das Konzept des
+      Konstruierens <i>bewohnbarer Systeme</i>, die zunächst bestimmte Teile und
+      schlussendlich das gesamte Spektrum der{" "}
+      <a
+        href="https://de.wikipedia.org/wiki/Daseinsvorsorge"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline hover:text-white"
+      >
+        Daseinsvorsorge
+      </a>{" "}
+      realisieren, aber auf bedeutend transparentere und demokratischere Weise,
+      als es bislang der Fall ist.
     </>
   ),
   works: [
