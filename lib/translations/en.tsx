@@ -1,8 +1,34 @@
 import { Translation } from "../i18n-types";
+import React from "react";
 
 const en: Translation = {
-  tagline:
-    "Creating unified systems that bridge philosophy and practice—where technology serves human connection, participation becomes default, and collective flourishing emerges through lived experience.",
+  tagline: (
+    <>
+      I'm Julian, 25 years old, a{" "}
+      <a
+        href="https://link.springer.com/article/10.1007/s11625-020-00850-6"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline hover:text-white"
+      >
+        systems entrepreneur
+      </a>
+      , computer scientist and{" "}
+      <a
+        href="https://www.re-des.org/es/a-solarpunk-manifesto/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline hover:text-white"
+      >
+        solarpunk
+      </a>
+      . My mission is to improve the accessibility and to popularize political,
+      economical and digital systems which simply foster the growth of happier,
+      healthier humans. One of my main tools is observing how humans actually
+      are and which societal norms and taboos hinder us from realizing our full
+      potential.
+    </>
+  ),
   works: [
     {
       id: 1,

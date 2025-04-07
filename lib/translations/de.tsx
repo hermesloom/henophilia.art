@@ -1,8 +1,35 @@
 import { Translation } from "../i18n-types";
+import React from "react";
 
 const de: Translation = {
-  tagline:
-    "Entwicklung vereinter Systeme, die Philosophie und Praxis verbinden—wo Technologie menschliche Verbindungen fördert, Teilnahme zur Selbstverständlichkeit wird und kollektives Gedeihen durch gelebte Erfahrung entsteht.",
+  tagline: (
+    <>
+      Ich bin Julian, 25 Jahre alt,{" "}
+      <a
+        href="https://link.springer.com/article/10.1007/s11625-020-00850-6"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline hover:text-white"
+      >
+        systemischer Unternehmer
+      </a>
+      , Informatiker und{" "}
+      <a
+        href="https://www.re-des.org/es/a-solarpunk-manifesto/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline hover:text-white"
+      >
+        Solarpunk
+      </a>
+      . Meine Mission ist es, politische, wirtschaftliche und digitale Systeme
+      zugänglicher zu machen und zu popularisieren, die einfach das Wachstum
+      glücklicherer und gesünderer Menschen fördern. Eines meiner wichtigsten
+      Werkzeuge ist das Beobachten, wie Menschen tatsächlich sind und welche
+      gesellschaftlichen Normen und Tabus uns daran hindern, unser volles
+      Potenzial zu entfalten.
+    </>
+  ),
   works: [
     {
       id: 1,

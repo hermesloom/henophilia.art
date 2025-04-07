@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type Work = {
   id: number;
   title: string;
@@ -8,7 +10,7 @@ export type Work = {
 };
 
 export type Translation = {
-  tagline: string;
+  tagline: ReactNode;
   works: Work[];
   sections: {
     artist: {
