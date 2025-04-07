@@ -25,10 +25,10 @@ const en: Translation = {
       . My mission is to improve the accessibility of and to popularize
       political, economical and digital systems which simply foster the growth
       of happier, healthier humans. One of my main tools is observing how humans
-      actually are and which societal norms and taboos hinder us from realizing
-      our full potential. I'm particularly fascinated by the concept of
-      constructing <i>inhabitable systems</i> that initially realize certain
-      parts and eventually the entire spectrum of{" "}
+      actually are and which societal norms and taboos contribute to or hinder
+      us from realizing our full potential. I'm particularly fascinated by the
+      concept of constructing <i>inhabitable systems</i> that initially realize
+      certain parts and eventually the entire spectrum of{" "}
       <a
         href="https://en.wikipedia.org/wiki/Public_service"
         target="_blank"

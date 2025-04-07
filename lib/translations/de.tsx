@@ -26,10 +26,10 @@ const de: Translation = {
       zugänglicher zu machen und zu popularisieren, die einfach das Wachstum
       glücklicherer und gesünderer Menschen fördern. Eines meiner wichtigsten
       Werkzeuge ist das Beobachten, wie Menschen tatsächlich sind und welche
-      gesellschaftlichen Normen und Tabus uns daran hindern, unser volles
-      Potenzial zu entfalten. Insbesondere fasziniert mich das Konzept des
-      Konstruierens <i>bewohnbarer Systeme</i>, die zunächst bestimmte Teile und
-      schlussendlich das gesamte Spektrum der{" "}
+      gesellschaftlichen Normen und Tabus dazu betragen oder uns daran hindern,
+      unser volles Potenzial zu entfalten. Insbesondere fasziniert mich das
+      Konzept des Konstruierens <i>bewohnbarer Systeme</i>, die zunächst
+      bestimmte Teile und schlussendlich das gesamte Spektrum der{" "}
       <a
         href="https://de.wikipedia.org/wiki/Daseinsvorsorge"
         target="_blank"
