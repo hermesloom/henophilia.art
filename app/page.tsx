@@ -344,6 +344,43 @@ export default function Home() {
                           asChild
                         >
                           <a
+                            href="https://www.linkedin.com/in/nalenz/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="18"
+                              height="18"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            >
+                              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                              <rect width="4" height="12" x="2" y="9" />
+                              <circle cx="4" cy="4" r="2" />
+                            </svg>
+                            <span className="sr-only">LinkedIn</span>
+                          </a>
+                        </Button>
+                      </TooltipTrigger>
+                      <TooltipContent>LinkedIn</TooltipContent>
+                    </Tooltip>
+                  </TooltipProvider>
+
+                  <TooltipProvider>
+                    <Tooltip>
+                      <TooltipTrigger asChild>
+                        <Button
+                          variant="outline"
+                          size="icon"
+                          className="border-zinc-800 bg-transparent hover:bg-zinc-800/30 hover:border-zinc-600 text-white hover:text-zinc-200 transition-all duration-200"
+                          asChild
+                        >
+                          <a
                             href="https://blog.hermesloom.org/"
                             target="_blank"
                             rel="noopener noreferrer"

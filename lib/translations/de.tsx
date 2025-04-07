@@ -132,6 +132,7 @@ const de: Translation = {
         instagram: "Instagram",
         bluesky: "Bluesky",
         email: "E-Mail",
+        linkedin: "LinkedIn",
         blog: "Blog",
       },
     },
