@@ -4,7 +4,7 @@ import React from "react";
 const de: Translation = {
   tagline: (
     <>
-      Ich bin Julian, 25 Jahre alt,{" "}
+      Ich bin Julian, 25 Jahre alt, Künstler,{" "}
       <a
         href="https://link.springer.com/article/10.1007/s11625-020-00850-6"
         target="_blank"
