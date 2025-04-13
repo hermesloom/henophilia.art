@@ -123,7 +123,7 @@ const en: Translation = {
     connect: {
       title: "Connect",
       paragraph:
-        "For inquiries about collaborations or simply to say hi, please use the contact information below.",
+        "Do you feel like 'Damn, this is pretty much exactly what I've been having on my mind for so long'? Even if you're completely new to this, do you feel excited, almost like a certain fire lighting up in your heart? To say hi, please use my contact information below.",
       email: "Email:",
       location: "Location (last updated at 2025-04-06):",
       locationValue: "Lisbon, Portugal",
