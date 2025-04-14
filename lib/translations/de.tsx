@@ -123,11 +123,7 @@ const de: Translation = {
     },
     connect: {
       title: "Kontakt",
-      paragraph:
-        "Für Anfragen zu Zusammenarbeiten oder um Hi zu sagen, nutze bitte die folgenden Kontaktinformationen.",
       email: "E-Mail:",
-      location: "Standort (letzte Aktualisierung am 06.04.2025):",
-      locationValue: "Lissabon, Portugal",
       social: {
         instagram: "Instagram",
         bluesky: "Bluesky",

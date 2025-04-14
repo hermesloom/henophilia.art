@@ -122,11 +122,7 @@ const en: Translation = {
     },
     connect: {
       title: "Connect",
-      paragraph:
-        "For inquiries about collaborations or simply to say hi, please use the contact information below.",
       email: "Email:",
-      location: "Location (last updated at 2025-04-06):",
-      locationValue: "Lisbon, Portugal",
       social: {
         instagram: "Instagram",
         bluesky: "Bluesky",

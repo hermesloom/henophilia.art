@@ -186,10 +186,6 @@ export default function Home() {
               {t.sections.connect.title}
             </h2>
             <div className="max-w-lg">
-              <p className="text-zinc-400 mb-8">
-                {t.sections.connect.paragraph}
-              </p>
-
               <div className="space-y-4">
                 <p className="text-zinc-300 flex items-center gap-2">
                   <span className="text-zinc-500">
@@ -201,12 +197,6 @@ export default function Home() {
                   >
                     synergies@henophilia.art
                   </a>
-                </p>
-                <p className="text-zinc-300 flex items-center gap-2">
-                  <span className="text-zinc-500">
-                    {t.sections.connect.location}
-                  </span>{" "}
-                  {t.sections.connect.locationValue}
                 </p>
 
                 <div className="flex flex-wrap gap-4 mt-8">

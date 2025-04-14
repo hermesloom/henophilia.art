@@ -34,10 +34,7 @@ export type Translation = {
     };
     connect: {
       title: string;
-      paragraph: string;
       email: string;
-      location: string;
-      locationValue: string;
       social: {
         instagram: string;
         bluesky: string;
