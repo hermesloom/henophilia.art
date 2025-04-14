@@ -124,7 +124,7 @@ const de: Translation = {
     connect: {
       title: "Kontakt",
       paragraph:
-        "Fühlst du dich wie: „Verdammt, das ist genau das, was mir schon so lange im Kopf rumschwirrt“? Oder spürst du – selbst wenn das alles neu für dich ist – eine Aufregung, fast so, als würde ein Feuer in deinem Herzen entfacht? Dann sag gerne Hallo – meine Kontaktinformationen findest du hier.",
+        "Für Anfragen zu Zusammenarbeiten oder um Hi zu sagen, nutze bitte die folgenden Kontaktinformationen.",
       email: "E-Mail:",
       location: "Standort (letzte Aktualisierung am 06.04.2025):",
       locationValue: "Lissabon, Portugal",
