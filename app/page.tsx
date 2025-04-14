@@ -12,7 +12,7 @@ export default function Home() {
   const translations: { [key: string]: Translation } = { en, de };
   const t = translations[language];
 
-  useEffect(() => {
+  /*useEffect(() => {
     // Set initial language based on browser preference
     try {
       const browserLang = navigator.language.split("-")[0];
@@ -22,7 +22,7 @@ export default function Home() {
     } catch (e) {
       console.error("Error setting language:", e);
     }
-  }, []);
+  }, []);*/
 
   // Fallback if translations aren't loaded
   if (!t) {
