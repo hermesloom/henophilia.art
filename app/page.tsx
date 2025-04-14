@@ -3,12 +3,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
 import { Translation } from "@/lib/i18n-types";
 import en from "@/lib/translations/en";
 import de from "@/lib/translations/de";
