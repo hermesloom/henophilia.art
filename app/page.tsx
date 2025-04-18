@@ -236,7 +236,7 @@ export default function Home() {
                     asChild
                   >
                     <a
-                      href="https://instagram.com/henophilia"
+                      href="https://instagram.com/jlnnlnz"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
