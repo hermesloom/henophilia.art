@@ -1,14 +1,17 @@
 import { ReactNode } from "react";
 
+export type Button = {
+  text: string;
+  url: string;
+};
+
 export type Work = {
   id: number;
   title: string;
   year: string;
   description: string;
   content: string;
-  url: string;
-  buttonText?: string;
-  buttonUrl?: string;
+  buttons?: Button[];
 };
 
 export type Translation = {
