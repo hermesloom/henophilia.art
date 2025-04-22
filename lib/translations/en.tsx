@@ -92,6 +92,16 @@ const en: Translation = {
         "This project translates abstract principles of fiscal democracy into concrete political structures within the German system. Unlike conventional political parties focused on policy positions, the Partei der Steuerverteilgerechtigkeit (Tax Distribution Justice Party) creates a framework where citizens gain equal decision-making power over public funds regardless of their income or tax contribution level. \n\nAt its foundation is a digital distribution platform where each citizen directs their per-capita share of the total tax revenue toward specific projects and categories. This system fundamentally restructures the relationship between citizen and state, transforming taxation from an obligation into a participatory act. For those who choose not to actively allocate their share, elected representatives determine a default distribution, ensuring functionality while preserving individual choice. \n\nBeyond technological implementation, the project emphasizes educational components that build financial literacy from childhood. By introducing participatory budgeting in schools and creating structured pathways for fiscal engagement, it establishes the cultural and cognitive infrastructure necessary for meaningful collective resource allocation. The three-phase implementation plan demonstrates how radical democratic principles can be pragmatically integrated into existing governance structures.",
       url: "https://steuerdemokratie.de",
     },
+    {
+      id: 6,
+      title: "Luttmissen Publishing",
+      year: "2025",
+      description:
+        "A multilingual publishing house dedicated to translating transformative works that challenge conventional thinking, bridging philosophical wisdom across languages and cultures.",
+      content:
+        "This project reimagines publishing as a tool for cultural transformation through careful curation and precise translation. Focusing on works that were groundbreaking in their time but remain underappreciated, Luttmissen Publishing bridges linguistic barriers to make essential ideas accessible to new audiences. \n\nAt its core, the project embodies the philosophy of 'making the revolution irresistible' by selecting works that explore fundamental aspects of human experience—relationships, economics, psychology—in ways that challenge established systems. The initial catalog features translations between German and English of D.H. Lawrence's examination of human relationships in 'The Rainbow,' Silvio Gesell's alternative economic frameworks in 'Natural Economic Order,' and Theodor Reik's psychological insights in 'From Suffering to Joy: Masochism and Society.' \n\nBeyond mere translation, the work represents a deliberate cultural intervention that preserves the authors' original intent while making their revolutionary perspectives relevant to contemporary audiences. Each publication is crafted with meticulous attention to linguistic nuance, recognizing that language shapes how we conceptualize possibilities for individual and collective flourishing. This process of careful linguistic translation becomes a metaphor for the broader translation of wisdom across time and context.",
+      url: "https://publishing.luttmissen.org",
+    },
   ],
   sections: {
     artist: {

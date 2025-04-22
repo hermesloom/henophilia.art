@@ -131,7 +131,7 @@ export default function Home() {
                   <Button
                     variant="outline"
                     size="sm"
-                    className="border-zinc-800 bg-transparent hover:bg-zinc-800 text-white flex items-center gap-2"
+                    className="border-zinc-800 bg-transparent hover:bg-zinc-800/30 hover:border-zinc-600 text-white hover:text-zinc-200 transition-all duration-200 flex items-center gap-2"
                     asChild
                   >
                     <a
