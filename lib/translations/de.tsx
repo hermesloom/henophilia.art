@@ -56,7 +56,7 @@ const de: Translation = {
     {
       id: 2,
       title: "Ultimate Collaboration",
-      year: "2024–heute",
+      year: "seit 2024",
       description:
         "Eine digitale Enzyklopädie, die als Vernetzungsforum für Bewegungen, Gemeinschaften und Ideen fungiert, die auf eine ganzheitliche regenerative Transformation hinarbeiten.",
       content:
@@ -86,7 +86,7 @@ const de: Translation = {
     {
       id: 5,
       title: "Partei der Steuerverteilgerechtigkeit",
-      year: "2025",
+      year: "seit 2025",
       description:
         "Eine politische Partei, die direkte demokratische Kontrolle über die Steuerverteilung implementiert und Bürgern ermöglicht, genau zu entscheiden, wie ihre Steuerbeiträge verwendet werden.",
       content:
@@ -96,7 +96,7 @@ const de: Translation = {
     {
       id: 6,
       title: "Luttmissen Publishing",
-      year: "2025",
+      year: "seit 2025",
       description:
         "Ein mehrsprachiger Verlag, der sich der Übersetzung transformativer Werke widmet, die konventionelles Denken herausfordern und philosophische Weisheit über Sprachen und Kulturen hinweg verbinden.",
       content:
