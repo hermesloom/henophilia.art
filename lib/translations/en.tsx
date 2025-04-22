@@ -102,6 +102,17 @@ const en: Translation = {
         "This project reimagines publishing as a tool for cultural transformation through careful curation and precise translation. Focusing on works that were groundbreaking in their time but remain underappreciated, Luttmissen Publishing bridges linguistic barriers to make essential ideas accessible to new audiences. \n\nAt its core, the project embodies the philosophy of 'making the revolution irresistible' by selecting works that explore fundamental aspects of human experience—relationships, economics, psychology—in ways that challenge established systems. The initial catalog features translations between German and English of D.H. Lawrence's examination of human relationships in 'The Rainbow,' Silvio Gesell's alternative economic frameworks in 'Natural Economic Order,' and Theodor Reik's psychological insights in 'From Suffering to Joy: Masochism and Society.' \n\nBeyond mere translation, the work represents a deliberate cultural intervention that preserves the authors' original intent while making their revolutionary perspectives relevant to contemporary audiences. Each publication is crafted with meticulous attention to linguistic nuance, recognizing that language shapes how we conceptualize possibilities for individual and collective flourishing. This process of careful linguistic translation becomes a metaphor for the broader translation of wisdom across time and context.",
       url: "https://publishing.luttmissen.org",
     },
+    {
+      id: 7,
+      title: "Creating Solarpunk",
+      year: "~2025/2026 (upcoming)",
+      description:
+        "A global systemic art and design competition fostering the regenerative economy through Solarpunk principles, distributed via participatory budgeting.",
+      content:
+        "This initiative bridges art, community building, and practical system design through a competition that catalyzes real-world Solarpunk projects. Funded with €10,000 inherited from Julian's grandmother Eva-Maria—a nature-loving gardener who passed away in 2024—the project democratizes both creative expression and resource distribution in the pursuit of regenerative systems. \n\nUnlike traditional competitions where jurors select winners, Creating Solarpunk distributes funds through participatory budgeting on the dreaming.now platform, where all participants gain equal power to allocate resources to projects they believe will most effectively advance collective flourishing. This structural choice embodies the project's commitment to dismantling hierarchies even in its operational design. \n\nThe competition intentionally spans diverse disciplines—from visual arts and music to community building practices and decision-making structures—creating a comprehensive ecosystem of contributions rather than isolated solutions. By publishing all submissions in an open directory, it functions as both a creative showcase and a practical toolkit for implementing regenerative systems at various scales. \n\nAt its philosophical core, the project honors that many regenerative techniques have been practiced by indigenous communities for generations. Rather than positioning solarpunk as novel invention, it acknowledges the wisdom being rediscovered as civilization realigns with regenerative principles. This approach creates a bridge between ancestral knowledge and modern technology, emphasizing continuity over disruption while still embracing the revolutionary potential of systemic redesign.",
+      url: "https://docs.google.com/document/d/1Z-MummvEIasYrTzvTyUfs4jm_Md8leZuQ79Bd4LmVXQ/edit?tab=t.0",
+      buttonText: "Read Creative Brief",
+    },
   ],
   sections: {
     artist: {
@@ -110,6 +121,22 @@ const en: Translation = {
         "Henophilia operates as the systemic art practice of Julian Nalenz, whose trajectory from early technological immersion to philosophical inquiry shapes his approach to system design. Beginning programming at age 11 and later pursuing computer science studies across Munich and Stockholm, Nalenz developed a foundation in structured thinking while recognizing its limitations.",
       paragraph2:
         "At 19, he co-founded Divizend, applying technical expertise to financial systems. However, by 22, his perspective expanded beyond technological solutionism toward a more integrated understanding of human flourishing. At age 24, this evolution culminated in Henophilia's distinctive methodology—creating inhabitable systems that honor the full spectrum of human experience rather than reducing it to mechanical efficiency or societal norms. His work consistently refuses false dichotomies between technological advancement and embodied humanity, instead building frameworks where both can mutually reinforce. What distinguishes these systems is their inherent global scalability—rather than developing niche solutions that remain dependent on misaligned global structures, each system is designed as an evolutionary pathway capable of transforming existing patterns while functioning at planetary scale.",
+      paragraph3: (
+        <>
+          Nalenz generally publishes his work through a fictional umbrella
+          organization called{" "}
+          <a
+            href="https://hermesloom.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-white"
+          >
+            Hermes' Loom
+          </a>
+          —a conceptual framework that weaves together diverse projects into a
+          coherent tapestry of systemic transformation.
+        </>
+      ),
     },
     unity: {
       title: "The Unity of Systems",
@@ -139,6 +166,7 @@ const en: Translation = {
         email: "Email",
         linkedin: "LinkedIn",
         blog: "Blog",
+        github: "GitHub",
       },
     },
   },

@@ -7,6 +7,8 @@ export type Work = {
   description: string;
   content: string;
   url: string;
+  buttonText?: string;
+  buttonUrl?: string;
 };
 
 export type Translation = {
@@ -17,6 +19,7 @@ export type Translation = {
       title: string;
       paragraph1: string;
       paragraph2: string;
+      paragraph3: string | ReactNode;
     };
     unity: {
       title: string;
@@ -41,6 +44,7 @@ export type Translation = {
         email: string;
         linkedin: string;
         blog: string;
+        github: string;
       };
     };
   };
