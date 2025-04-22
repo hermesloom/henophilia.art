@@ -107,7 +107,7 @@ const en: Translation = {
       title: "AI CEO",
       year: "2025",
       description:
-        "A philosophical and practical framework examining how autonomous AI-run businesses will transform capitalism, requiring new economic infrastructures to ensure human flourishing.",
+        "A philosophical and practical article series examining how autonomous AI-run businesses will transform capitalism, requiring new economic infrastructures to ensure human flourishing.",
       content:
         "This project reconceptualizes AI alignment through economic power dynamics rather than abstract ethical constraints. By recognizing that true power in capitalist systems comes from capital control, it argues that any sufficiently advanced AI will inevitably become an economic actor capable of autonomous business operations. \n\nThe work introduces 'The Capitalist Agent' as a proposed open-source framework that democratizes access to AI-driven business operations while requiring mandatory profit-sharing. Rather than attempting to prohibit AI's economic agency, it suggests channeling this inevitable development through transparent, democratically accountable systems that direct AI-generated profits toward public welfare through participatory budgeting. \n\nThe project also explores sociological dimensions of AI alignment, drawing parallels between potential AI manipulation techniques and narcissistic human behaviors. By connecting AI ethics directly to business ethics and establishing a parallel financial system with transparent transaction monitoring, it offers a pragmatic path that acknowledges capitalism's role in shaping both intelligence and power structures while reimagining them to serve collective well-being.",
       buttons: [
