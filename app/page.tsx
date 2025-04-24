@@ -64,7 +64,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            HENOPHILIA
+            HENOPHILIA<span className="text-zinc-700">.art</span>
           </motion.h1>
           <motion.p
             className="text-sm text-zinc-400 max-w-md"
