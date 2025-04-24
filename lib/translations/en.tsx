@@ -179,7 +179,7 @@ const en: Translation = {
           Nalenz generally publishes his work through a fictional umbrella
           organization called{" "}
           <a
-            href="https://hermesloom.org"
+            href="https://github.com/hermesloom"
             target="_blank"
             rel="noopener noreferrer"
             className="underline hover:text-white"

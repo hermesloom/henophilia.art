@@ -180,7 +180,7 @@ const de: Translation = {
           Nalenz veröffentlicht seine Arbeit generell durch eine fiktive
           Dachorganisation namens{" "}
           <a
-            href="https://hermesloom.org"
+            href="https://github.com/hermesloom"
             target="_blank"
             rel="noopener noreferrer"
             className="underline hover:text-white"
