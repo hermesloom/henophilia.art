@@ -166,6 +166,21 @@ const en: Translation = {
         },
       ],
     },
+    {
+      id: 9,
+      title: "Henophilia Ventures",
+      year: "2025",
+      description:
+        "A venture funding approach that rebuilds economic infrastructure from first principles, creating interconnected startup economies designed for core needs and enduring cooperative governance.",
+      content:
+        'Henophilia Ventures is a concept for an investment fund which has a typical startup fund structure, but is designed to create a self-sustaining ecosystem between these startups. Investment range from farms for food production to Deep Tech FinTechs for financial infrastructure, schools, logistics providers and everything else which makes up public services, but more thought through. According to the investment memo of this fund, "it just makes more sense to fund startups which are designed to make business for *each other*, not independent segments of the market".\n\nThe startup acceleration program conducted after a startup has been accepted into the program especially consists of discussions among the startups on identifying trade opporunities between them, not only bilaterially, but optimizing for this in an entire network, where the waste of one is the input for another, in a cyclical way. The fundamental hypothesis is that in a B2B context, a faster velocity of money, combined with techniques of human connection, can propel innovative and profit potential into never seen dimensions.',
+      buttons: [
+        {
+          text: "henophilia.ventures",
+          url: "https://henophilia.ventures/",
+        },
+      ],
+    },
   ],
   sections: {
     artist: {

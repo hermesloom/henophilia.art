@@ -167,6 +167,21 @@ const de: Translation = {
         },
       ],
     },
+    {
+      id: 9,
+      title: "Henophilia Ventures",
+      year: "2025",
+      description:
+        "Ein Ansatz zur Startup-Finanzierung, der wirtschaftliche Infrastruktur von Grund auf neu aufbaut und miteinander verbundene Startup-Ökonomien schafft, die auf Grundbedürfnisse und dauerhafte kooperative Governance ausgerichtet sind.",
+      content:
+        "Henophilia Ventures ist ein Konzept für einen Investmentfonds mit einer typischen Startup-Fondsstruktur, der jedoch darauf ausgelegt ist, ein sich selbst tragendes Ökosystem zwischen den geförderten Startups zu schaffen. Die Investitionen reichen von landwirtschaftlichen Betrieben für die Lebensmittelproduktion bis hin zu Deep-Tech-FinTechs für Finanzinfrastrukturen, Schulen, Logistikunternehmen und allem, was öffentliche Dienstleistungen ausmacht – allerdings durchdachter. Laut dem Investment-Memo des Fonds „ergibt es einfach mehr Sinn, Startups zu finanzieren, die füreinander Geschäfte machen sollen, statt isolierte Marktsegmente zu bedienen“.\n\nDas Startup-Accelerator-Programm, das nach der Aufnahme eines Startups durchgeführt wird, besteht insbesondere aus Diskussionen zwischen den Startups, bei denen Handelspotenziale untereinander identifiziert werden sollen – nicht nur bilateral, sondern mit dem Ziel, das gesamte Netzwerk zu optimieren. Dabei soll der Abfall des einen zum Input des anderen werden – in einem zyklischen Kreislauf. Die grundlegende Hypothese lautet, dass im B2B-Kontext eine höhere Umlaufgeschwindigkeit von Geld, kombiniert mit Techniken zur menschlichen Verbindung, Innovations- und Gewinnpotenziale in bisher ungeahnte Dimensionen heben kann.",
+      buttons: [
+        {
+          text: "henophilia.ventures",
+          url: "https://henophilia.ventures/",
+        },
+      ],
+    },
   ],
   sections: {
     artist: {
