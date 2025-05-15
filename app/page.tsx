@@ -76,6 +76,20 @@ export default function Home() {
           </motion.p>
         </header>
 
+        {/* Miro Board Embed */}
+        <section className="mb-32">
+          <div className="w-full relative" style={{ paddingBottom: "60vh" }}>
+            <iframe
+              src="https://miro.com/app/live-embed/uXjVI4fpI4M=/?moveToViewport=-1041,-434,1795,1368&embedId=458263131834"
+              frameBorder="0"
+              scrolling="no"
+              className="absolute top-0 left-0 w-full h-full"
+              allow="fullscreen; clipboard-read; clipboard-write"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </section>
+
         <main className="space-y-32">
           {/* Artist Introduction */}
           <section>
