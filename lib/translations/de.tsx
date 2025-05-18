@@ -182,6 +182,21 @@ const de: Translation = {
         },
       ],
     },
+    {
+      id: 10,
+      title: "Vertrauen",
+      year: "2025",
+      description:
+        "Das erste Datingnetzwerk Deutschlands für bedeutungsvolle Verbindungen durch Vertrauen, mit persönlichen Gesprächen und der Verpflichtung zu monatlichen Unterhaltungen.",
+      content:
+        "Dieses Projekt denkt Dating jenseits algorithmischer Zuordnung neu, indem es ein Netzwerk schafft, das auf echter menschlicher Verbindung und gemeinsamen Werten basiert. Im Gegensatz zu herkömmlichen Plattformen, die auf Quantität optimieren, implementiert Vertrauen einen bewussten Auswahlprozess, bei dem jedes potenzielle Mitglied an einem persönlichen Gespräch teilnimmt, bevor es aufgenommen wird. \n\nIm Kern funktioniert das System nach dem Prinzip, dass bedeutungsvolle Beziehungen Vertrauen erfordern—und Vertrauen beginnt mit Verantwortung, Ehrlichkeit und echtem Interesse am Gegenüber. Das besondere Merkmal des Netzwerks ist die Verpflichtung zum monatlichen Gespräch: Jedes Mitglied erklärt sich bereit, mindestens ein substanzielles Gespräch pro Monat zu führen, entweder mit einem anderen Mitglied oder mit einem potenziellen Bewerber, wodurch ein selbsterhaltendes Ökosystem bedeutungsvoller Begegnungen entsteht. \n\nVertrauen verkörpert vier grundlegende Werte: Freundlichkeit (anderen mit Respekt, Wohlwollen und Offenheit begegnen), Ehrlichkeit (Übereinstimmung zwischen Worten und Absichten), Konsent (Anerkennung, dass nur ein ausdrückliches 'Ja' eine Zustimmung darstellt) und Verantwortung (jede Begegnung als Gelegenheit behandeln, das Leben eines anderen positiv zu beeinflussen). Durch diese sorgfältig gestaltete soziale Architektur schafft das Projekt einen Rahmen, in dem Vertrauen nicht nur ein Merkmal, sondern das primäre Tauschmittel ist.",
+      buttons: [
+        {
+          text: "vertrauen.live",
+          url: "https://vertrauen.live/",
+        },
+      ],
+    },
   ],
   sections: {
     artist: {

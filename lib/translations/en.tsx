@@ -173,11 +173,26 @@ const en: Translation = {
       description:
         "A venture funding approach that rebuilds economic infrastructure from first principles, creating interconnected startup economies designed for core needs and enduring cooperative governance.",
       content:
-        'Henophilia Ventures is a concept for an investment fund which has a typical startup fund structure, but is designed to create a self-sustaining ecosystem between these startups. Investment range from farms for food production to Deep Tech FinTechs for financial infrastructure, schools, logistics providers and everything else which makes up public services, but more thought through. According to the investment memo of this fund, "it just makes more sense to fund startups which are designed to make business for *each other*, not independent segments of the market".\n\nThe startup acceleration program conducted after a startup has been accepted into the program especially consists of discussions among the startups on identifying trade opporunities between them, not only bilaterially, but optimizing for this in an entire network, where the waste of one is the input for another, in a cyclical way. The fundamental hypothesis is that in a B2B context, a faster velocity of money, combined with techniques of human connection, can propel innovative and profit potential into never seen dimensions.',
+        'Henophilia Ventures is a concept for an investment fund which has a typical startup fund structure, but is designed to create a self-sustaining ecosystem between these startups. Investment range from farms for food production to Deep Tech FinTechs for financial infrastructure, schools, logistics providers and everything else which makes up public services, but more thought through. According to the investment memo of this fund, "it just makes more sense to fund startups which are designed to make business for *each other*, not independent segments of the market".\n\nThe startup acceleration program conducted after a startup has been accepted into the program especially consists of discussions among the startups on identifying trade opporunities between them, not only bilaterally, but optimizing for this in an entire network, where the waste of one is the input for another, in a cyclical way. The fundamental hypothesis is that in a B2B context, a faster velocity of money, combined with techniques of human connection, can propel innovative and profit potential into never seen dimensions.',
       buttons: [
         {
           text: "henophilia.ventures",
           url: "https://henophilia.ventures/",
+        },
+      ],
+    },
+    {
+      id: 10,
+      title: "Vertrauen",
+      year: "2025",
+      description:
+        "Germany's first dating network focused on meaningful connections through trust, featuring personal interviews and a commitment to monthly conversations.",
+      content:
+        "This project reimagines dating beyond algorithmic matching by creating a network centered on genuine human connection and shared values. Unlike conventional platforms optimizing for volume, Vertrauen ('Trust' in German) implements a deliberate selection process where each potential member participates in a personal interview before being admitted. \n\nAt its core, the system operates on the principle that meaningful relationships require trust—and trust begins with responsibility, honesty, and authentic interest in others. The network's distinctive feature is its monthly conversation commitment: every member agrees to engage in at least one substantive conversation each month, either with another member or with a prospective applicant, creating a self-sustaining ecosystem of meaningful exchange. \n\nVertrauen embodies four foundational values: kindness (approaching others with respect, goodwill and openness), honesty (alignment between words and intentions), consent (recognizing that only an explicit 'yes' constitutes agreement), and responsibility (treating each encounter as an opportunity to positively impact another's life). Through this carefully designed social architecture, the project creates a framework where trust is not merely a feature but the primary medium of exchange.",
+      buttons: [
+        {
+          text: "vertrauen.live",
+          url: "https://vertrauen.live/",
         },
       ],
     },
