@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
-export default () => {
+export default function GermanPage() {
   return (
     <div className="min-h-screen bg-black text-white relative">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 py-32">
@@ -45,12 +46,12 @@ export default () => {
               <line x1="12" y1="16" x2="12.01" y2="16"></line>
             </svg>
             Dies ist eine vereinfachte Version im Vergleich zur{" "}
-            <a
+            <Link
               href="/"
               className="underline hover:text-white transition-colors"
             >
               englischen Version
-            </a>
+            </Link>
             , die mehr Details und aktuelle Projekte enthält.
           </p>
         </div>
@@ -350,4 +351,4 @@ export default () => {
       </div>
     </div>
   );
-};
+}
