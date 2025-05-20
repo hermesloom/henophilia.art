@@ -1,28 +1,11 @@
 "use client";
 
-import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Translation } from "@/lib/i18n-types";
 import en from "@/lib/translations/en";
-import de from "@/lib/translations/de";
 
 export default function Home() {
-  const [language, setLanguage] = useState<"en" | "de">("en");
-  const translations: { [key: string]: Translation } = { en, de };
-  const t = translations[language];
-
-  /*useEffect(() => {
-    // Set initial language based on browser preference
-    try {
-      const browserLang = navigator.language.split("-")[0];
-      if (browserLang === "de") {
-        setLanguage("de");
-      }
-    } catch (e) {
-      console.error("Error setting language:", e);
-    }
-  }, []);*/
+  const t = en; // Always use English for the main page
 
   // Fallback if translations aren't loaded
   if (!t) {
@@ -36,25 +19,18 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white relative">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 py-32">
-        {/* Language Switcher */}
+        {/* Language Switcher - now using direct links */}
         <div className="absolute top-8 right-8 flex items-center space-x-2 text-sm">
           <span className="text-zinc-500">{t.languageSwitcher.label}</span>
-          <button
-            onClick={() => setLanguage("en")}
-            className={`px-2 py-1 rounded ${
-              language === "en" ? "bg-zinc-800 text-white" : "text-zinc-500"
-            }`}
-          >
+          <button className="px-2 py-1 rounded bg-zinc-800 text-white">
             {t.languageSwitcher.languages.en}
           </button>
-          <button
-            onClick={() => setLanguage("de")}
-            className={`px-2 py-1 rounded ${
-              language === "de" ? "bg-zinc-800 text-white" : "text-zinc-500"
-            }`}
+          <a
+            href="/de"
+            className="px-2 py-1 rounded text-zinc-500 hover:text-zinc-300 transition-colors"
           >
             {t.languageSwitcher.languages.de}
-          </button>
+          </a>
         </div>
 
         <header className="mb-24">
