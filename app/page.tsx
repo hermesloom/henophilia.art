@@ -19,20 +19,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white relative">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 py-32">
-        {/* Language Switcher - now using direct links */}
-        <div className="absolute top-8 right-8 flex items-center space-x-2 text-sm">
-          <span className="text-zinc-500">{t.languageSwitcher.label}</span>
-          <button className="px-2 py-1 rounded bg-zinc-800 text-white">
-            {t.languageSwitcher.languages.en}
-          </button>
-          <a
-            href="/de"
-            className="px-2 py-1 rounded text-zinc-500 hover:text-zinc-300 transition-colors"
-          >
-            {t.languageSwitcher.languages.de}
-          </a>
-        </div>
-
         <header className="mb-24">
           <motion.h1
             className="text-6xl sm:text-8xl font-extralight tracking-tighter mb-6"
@@ -101,60 +87,117 @@ export default function Home() {
             <h2 className="text-2xl font-light mb-8 border-b border-zinc-800 pb-2">
               {t.sections.works.title}
             </h2>
-            <div className="space-y-12">
+
+            {/* Desktop Table View */}
+            <div className="hidden md:block overflow-x-auto">
+              <table className="w-full border-collapse">
+                <thead>
+                  <tr className="border-b border-zinc-800">
+                    <th className="text-left py-3 px-4 font-light text-zinc-400">
+                      Year
+                    </th>
+                    <th className="text-left py-3 px-4 font-light text-zinc-400">
+                      Project
+                    </th>
+                    <th className="text-left py-3 px-4 font-light text-zinc-400">
+                      Description
+                    </th>
+                    <th className="text-left py-3 px-4 font-light text-zinc-400">
+                      Link
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {t.works.map((work) => (
+                    <tr
+                      key={work.id}
+                      className="border-b border-zinc-800/50 hover:bg-zinc-800/20"
+                    >
+                      <td className="py-3 px-4 text-zinc-500 text-sm">
+                        {work.year}
+                      </td>
+                      <td className="py-3 px-4 font-light">{work.title}</td>
+                      <td className="py-3 px-4 text-zinc-400 text-sm">
+                        {work.description}
+                      </td>
+                      <td className="py-3 px-4">
+                        <div className="flex flex-col gap-2">
+                          {work.buttons &&
+                            work.buttons.map((button, index) => (
+                              <a
+                                key={index}
+                                href={button.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-zinc-500 hover:text-white transition-colors flex items-center gap-1 text-sm"
+                              >
+                                {button.text}
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="12"
+                                  height="12"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  strokeWidth="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                >
+                                  <path d="M7 7h10v10" />
+                                  <path d="M7 17 17 7" />
+                                </svg>
+                              </a>
+                            ))}
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {/* Mobile Card View */}
+            <div className="md:hidden space-y-4">
               {t.works.map((work) => (
                 <div
                   key={work.id}
-                  className="border-l-2 border-zinc-800 pl-6 py-2"
+                  className="border border-zinc-800 rounded-lg p-4 hover:bg-zinc-800/20 transition-colors"
                 >
-                  <h3 className="text-xl font-light mb-1">{work.title}</h3>
-                  <p className="text-zinc-500 text-sm mb-4">{work.year}</p>
-                  <p className="text-zinc-400 mb-6">{work.description}</p>
-                  <div className="prose prose-invert prose-sm max-w-none opacity-80 font-light leading-relaxed mb-6">
-                    {work.content.split("\n\n").map((paragraph, idx) =>
-                      paragraph ? (
-                        <p key={idx} className="mb-4">
-                          {paragraph}
-                        </p>
-                      ) : (
-                        <br key={idx} />
-                      )
-                    )}
+                  <div className="flex items-start justify-between mb-3">
+                    <div>
+                      <h3 className="font-light text-lg mb-1">{work.title}</h3>
+                      <p className="text-zinc-500 text-sm">{work.year}</p>
+                    </div>
                   </div>
-                  <div className="grid grid-cols-1 gap-2 w-full">
+                  <p className="text-zinc-400 text-sm mb-4 leading-relaxed">
+                    {work.description}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
                     {work.buttons &&
                       work.buttons.map((button, index) => (
-                        <Button
+                        <a
                           key={index}
-                          variant="outline"
-                          size="sm"
-                          className="border-zinc-800 bg-transparent hover:bg-zinc-800/30 hover:border-zinc-600 text-white hover:text-zinc-200 transition-all duration-200 flex items-center justify-center w-full"
-                          asChild
+                          href={button.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 px-3 py-2 text-sm border border-zinc-700 rounded-md text-zinc-400 hover:text-white hover:border-zinc-600 hover:bg-zinc-800/30 transition-all duration-200"
                         >
-                          <a
-                            href={button.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="w-full flex items-center justify-center"
+                          {button.text}
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="12"
+                            height="12"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           >
-                            {button.text}
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="14"
-                              height="14"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              className="ml-1"
-                            >
-                              <path d="M7 7h10v10" />
-                              <path d="M7 17 17 7" />
-                            </svg>
-                          </a>
-                        </Button>
+                            <path d="M7 7h10v10" />
+                            <path d="M7 17 17 7" />
+                          </svg>
+                        </a>
                       ))}
                   </div>
                 </div>

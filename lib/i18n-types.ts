@@ -10,7 +10,6 @@ export type Work = {
   title: string;
   year: string;
   description: string;
-  content: string;
   buttons?: Button[];
 };
 
@@ -52,11 +51,4 @@ export type Translation = {
     };
   };
   footer: string;
-  languageSwitcher: {
-    label: string;
-    languages: {
-      en: string;
-      de: string;
-    };
-  };
 };
