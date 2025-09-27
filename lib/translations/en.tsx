@@ -176,6 +176,19 @@ const en: Translation = {
         },
       ],
     },
+    {
+      id: 11,
+      title: "Hot Visionaries",
+      year: "2025",
+      description:
+        "A space for dominant demisexual and sapiosexual visionaries seeking depth, devotion, and epic synergy—clarity without co-dependence.",
+      buttons: [
+        {
+          text: "hotvisionaries.club",
+          url: "https://www.hotvisionaries.club/",
+        },
+      ],
+    },
   ],
   sections: {
     artist: {
