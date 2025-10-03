@@ -15,7 +15,7 @@ const en: Translation = {
       </a>
       , computer scientist and{" "}
       <a
-        href="https://www.re-des.org/es/a-solarpunk-manifesto/"
+        href="https://theanarchistlibrary.org/library/the-solarpunk-community-a-solarpunk-manifesto"
         target="_blank"
         rel="noopener noreferrer"
         className="underline hover:text-white"
