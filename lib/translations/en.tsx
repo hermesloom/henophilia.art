@@ -181,11 +181,28 @@ const en: Translation = {
       title: "Hot Visionaries",
       year: "2025",
       description:
-        "A space for dominant demisexual and sapiosexual visionaries seeking depth, devotion, and epic synergy—clarity without co-dependence.",
+        "A space for demisexual and sapiosexual visionaries seeking depth, devotion, and epic synergy—clarity without co-dependence.",
       buttons: [
         {
           text: "hotvisionaries.club",
           url: "https://www.hotvisionaries.club/",
+        },
+      ],
+    },
+    {
+      id: 12,
+      title: "Isocracy NOW!",
+      year: "2025",
+      description:
+        "A manifesto for implementing participatory budgeting at Leuphana Universität Lüneburg.",
+      buttons: [
+        {
+          text: "isocracy.now",
+          url: "https://isocracy.now/",
+        },
+        {
+          text: "Flyers",
+          url: "https://isocracy.now/flyers.pdf",
         },
       ],
     },
