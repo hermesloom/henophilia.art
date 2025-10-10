@@ -146,7 +146,7 @@ const en: Translation = {
       buttons: [
         {
           text: "Read Creative Brief",
-          url: "https://docs.google.com/document/d/1Z-MummvEIasYrTzvTyUfs4jm_Md8leZuQ79Bd4LmVXQ/edit?tab=t.0",
+          url: "/creating-solarpunk.pdf",
         },
       ],
     },
