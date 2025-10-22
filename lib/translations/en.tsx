@@ -70,6 +70,49 @@ const en: Translation = {
     },
     {
       id: 3,
+      title: "The Golden Thread",
+      year: "2024",
+      description:
+        "A global, open-source platform that democratizes philanthropy by intelligently connecting individuals and organizations with funding, legal guidance, and community support—making it possible for anyone, anywhere, to realize their vision for the common good.",
+      buttons: [
+        {
+          text: "Website",
+          url: "https://hermesloom.framer.website/goldenthread",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "dreaming.now",
+      year: "2025",
+      description:
+        "Realizing dreams through participatory, grassroots democratic budgeting.",
+      buttons: [
+        {
+          text: "GitHub",
+          url: "https://github.com/hermesloom/dreaming.now",
+        },
+        {
+          text: "Pitch Deck",
+          url: "https://docs.google.com/presentation/d/1YsJKmBFVZL3nt3xpBfx1A6Ml2X-Phnve-H_t8KTnsi8/edit?usp=sharing",
+        },
+      ],
+    },
+    {
+      id: 5,
+      title: "#SchlussMitOhnmacht",
+      year: "2025",
+      description:
+        "A manifesto-style artwork titled #SchlussMitOhnmacht (“End the Powerlessness”) that calls on readers to demand constructive journalism, transforming passive media consumption into active civic engagement and collective empowerment.",
+      buttons: [
+        {
+          text: "Read Manifesto",
+          url: "/schlussmitohnmacht.pdf",
+        },
+      ],
+    },
+    {
+      id: 6,
       title: "Divizend Live",
       year: "2025",
       description:
@@ -82,7 +125,7 @@ const en: Translation = {
       ],
     },
     {
-      id: 4,
+      id: 7,
       title: "rightless.ai",
       year: "2025",
       description:
@@ -95,7 +138,7 @@ const en: Translation = {
       ],
     },
     {
-      id: 5,
+      id: 8,
       title: "AI CEO",
       year: "2025",
       description:
@@ -112,7 +155,7 @@ const en: Translation = {
       ],
     },
     {
-      id: 6,
+      id: 9,
       title: "Partei der Steuerverteilgerechtigkeit",
       year: "2025",
       description:
@@ -122,10 +165,14 @@ const en: Translation = {
           text: "steuerdemokratie.de",
           url: "https://steuerdemokratie.de",
         },
+        {
+          text: "Read letter to Bund der Steuerzahler",
+          url: "/bund-der-steuerzahler-partizipatives-steuersystem.pdf",
+        },
       ],
     },
     {
-      id: 7,
+      id: 10,
       title: "Luttmissen Publishing",
       year: "2025",
       description:
@@ -138,7 +185,7 @@ const en: Translation = {
       ],
     },
     {
-      id: 8,
+      id: 11,
       title: "Creating Solarpunk",
       year: "2025",
       description:
@@ -151,7 +198,7 @@ const en: Translation = {
       ],
     },
     {
-      id: 9,
+      id: 12,
       title: "Henophilia Ventures",
       year: "2025",
       description:
@@ -164,7 +211,7 @@ const en: Translation = {
       ],
     },
     {
-      id: 10,
+      id: 13,
       title: "Vertrauen",
       year: "2025",
       description:
@@ -177,7 +224,7 @@ const en: Translation = {
       ],
     },
     {
-      id: 11,
+      id: 14,
       title: "Hot Visionaries",
       year: "2025",
       description:
@@ -190,7 +237,7 @@ const en: Translation = {
       ],
     },
     {
-      id: 12,
+      id: 15,
       title: "Isocracy NOW!",
       year: "2025",
       description:
