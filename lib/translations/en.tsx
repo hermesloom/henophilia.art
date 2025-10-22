@@ -43,7 +43,6 @@ const en: Translation = {
   ),
   works: [
     {
-      id: 1,
       title: "henophilia.org",
       year: "2024",
       description:
@@ -56,7 +55,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 2,
       title: "Ultimate Collaboration",
       year: "2024",
       description:
@@ -69,7 +67,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 3,
       title: "The Golden Thread",
       year: "2024",
       description:
@@ -82,11 +79,26 @@ const en: Translation = {
       ],
     },
     {
-      id: 4,
+      title: "The Global Burn",
+      year: "2024",
+      description:
+        'The operating system for the Burning Man culture. Currently used as the membership platform for the annual Swedish burn "The Borderland".',
+      buttons: [
+        {
+          text: "GitHub",
+          url: "https://github.com/hermesloom/theglobalburn",
+        },
+        {
+          text: "members.theborderland.se",
+          url: "https://members.theborderland.se",
+        },
+      ],
+    },
+    {
       title: "dreaming.now",
       year: "2025",
       description:
-        "Realizing dreams through participatory, grassroots democratic budgeting.",
+        "A simple platform which makes setting up a participatory budgeting process as easy as never before. Work in progress.",
       buttons: [
         {
           text: "GitHub",
@@ -99,7 +111,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 5,
       title: "#SchlussMitOhnmacht",
       year: "2025",
       description:
@@ -112,7 +123,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 6,
       title: "Divizend Live",
       year: "2025",
       description:
@@ -125,7 +135,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 7,
       title: "rightless.ai",
       year: "2025",
       description:
@@ -138,7 +147,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 8,
       title: "AI CEO",
       year: "2025",
       description:
@@ -155,7 +163,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 9,
       title: "Partei der Steuerverteilgerechtigkeit",
       year: "2025",
       description:
@@ -172,12 +179,15 @@ const en: Translation = {
       ],
     },
     {
-      id: 10,
-      title: "Luttmissen Publishing",
+      title: "Luttmissen Library + Publishing",
       year: "2025",
       description:
-        "A multilingual publishing house dedicated to translating transformative works that challenge conventional thinking, bridging philosophical wisdom across languages and cultures.",
+        "A multilingual library and publishing house dedicated to giving access to and translating transformative works that challenge conventional thinking, bridging philosophical wisdom across languages and cultures.",
       buttons: [
+        {
+          text: "library.luttmissen.org",
+          url: "https://library.luttmissen.org",
+        },
         {
           text: "publishing.luttmissen.org",
           url: "https://publishing.luttmissen.org",
@@ -185,7 +195,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 11,
       title: "Creating Solarpunk",
       year: "2025",
       description:
@@ -198,7 +207,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 12,
       title: "Henophilia Ventures",
       year: "2025",
       description:
@@ -211,7 +219,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 13,
       title: "Vertrauen",
       year: "2025",
       description:
@@ -224,7 +231,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 14,
       title: "Hot Visionaries",
       year: "2025",
       description:
@@ -237,7 +243,6 @@ const en: Translation = {
       ],
     },
     {
-      id: 15,
       title: "Isocracy NOW!",
       year: "2025",
       description:

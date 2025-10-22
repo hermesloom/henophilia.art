@@ -108,9 +108,9 @@ export default function Home() {
                   </tr>
                 </thead>
                 <tbody>
-                  {t.works.map((work) => (
+                  {t.works.map((work, i) => (
                     <tr
-                      key={work.id}
+                      key={i}
                       className="border-b border-zinc-800/50 hover:bg-zinc-800/20"
                     >
                       <td className="py-3 px-4 text-zinc-500 text-sm">
@@ -158,9 +158,9 @@ export default function Home() {
 
             {/* Mobile Card View */}
             <div className="md:hidden space-y-4">
-              {t.works.map((work) => (
+              {t.works.map((work, i) => (
                 <div
-                  key={work.id}
+                  key={i}
                   className="border border-zinc-800 rounded-lg p-4 hover:bg-zinc-800/20 transition-colors"
                 >
                   <div className="flex items-start justify-between mb-3">

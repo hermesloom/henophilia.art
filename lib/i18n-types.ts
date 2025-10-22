@@ -6,7 +6,6 @@ export type Button = {
 };
 
 export type Work = {
-  id: number;
   title: string;
   year: string;
   description: string;
