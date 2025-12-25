@@ -53,35 +53,6 @@ export default function Home() {
         </section>
 
         <main className="space-y-32">
-          {/* Artist Introduction */}
-          <section>
-            <h2 className="text-2xl font-light mb-8 border-b border-zinc-800 pb-2">
-              {t.sections.artist.title}
-            </h2>
-            <div className="max-w-2xl">
-              <p className="text-zinc-400 mb-6">
-                {t.sections.artist.paragraph1}
-              </p>
-              <p className="text-zinc-400 mb-6">
-                {t.sections.artist.paragraph2}
-              </p>
-              <p className="text-zinc-400">{t.sections.artist.paragraph3}</p>
-            </div>
-          </section>
-
-          {/* About Section */}
-          <section>
-            <h2 className="text-2xl font-light mb-8 border-b border-zinc-800 pb-2">
-              {t.sections.unity.title}
-            </h2>
-            <div className="max-w-2xl">
-              <p className="text-zinc-400 mb-6">
-                {t.sections.unity.paragraph1}
-              </p>
-              <p className="text-zinc-400">{t.sections.unity.paragraph2}</p>
-            </div>
-          </section>
-
           {/* Works Section */}
           <section>
             <h2 className="text-2xl font-light mb-8 border-b border-zinc-800 pb-2">
@@ -211,15 +182,11 @@ export default function Home() {
               {t.sections.methodology.title}
             </h2>
             <div className="max-w-2xl">
-              <p className="text-zinc-400 mb-6">
-                {t.sections.methodology.paragraph1}
-              </p>
-              <p className="text-zinc-400 mb-6">
-                {t.sections.methodology.paragraph2}
-              </p>
-              <p className="text-zinc-400">
-                {t.sections.methodology.paragraph3}
-              </p>
+              {t.sections.methodology.paragraphs.map((p, i) => (
+                <p key={i} className="text-zinc-400 mb-6">
+                  {p}
+                </p>
+              ))}
             </div>
           </section>
 

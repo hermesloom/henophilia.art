@@ -43,6 +43,18 @@ const en: Translation = {
   ),
   works: [
     {
+      title: "Nalenz Equity",
+      year: "2020",
+      description:
+        "My holding company for my real-life entrepreneurial activities.",
+      buttons: [
+        {
+          text: "nalenzequity.com",
+          url: "https://nalenzequity.com",
+        },
+      ],
+    },
+    {
       title: "henophilia.org",
       year: "2024",
       description:
@@ -258,49 +270,45 @@ const en: Translation = {
         },
       ],
     },
+    {
+      title: "The Offline Society",
+      year: "2025",
+      description:
+        "A self-organizing, fully offline social framework that prioritizes autonomy, self-reliance, and human connection without digital infrastructure.",
+      buttons: [
+        {
+          text: "Memo",
+          url: "https://www.theofflinesociety.org/",
+        },
+        {
+          text: "Blog article",
+          url: "https://blog.hermesloom.org/p/rules-for-the-offline-society",
+        },
+      ],
+    },
+    {
+      title: "Project Theseus",
+      year: "2025",
+      description:
+        "Project Theseus is a speculative company concept built around making ultra-repairable products and open-sourcing them from day one, with the radical goal of rendering itself obsolete by making longevity and repairability the boring default.",
+      buttons: [
+        {
+          text: "Blog article",
+          url: "https://blog.hermesloom.org/p/the-company-that-wants-to-be-the",
+        },
+      ],
+    },
   ],
   sections: {
-    artist: {
-      title: "The Artist",
-      paragraph1:
-        "Henophilia operates as the systemic art practice of Julian Nalenz, whose trajectory from early technological immersion to philosophical inquiry shapes his approach to system design. Beginning programming at age 11 and later pursuing computer science studies across Munich and Stockholm, Nalenz developed a foundation in structured thinking while recognizing its limitations.",
-      paragraph2:
-        "At 19, he co-founded Divizend, applying technical expertise to financial systems. However, by 22, his perspective expanded beyond technological solutionism toward a more integrated understanding of human flourishing. At age 24, this evolution culminated in Henophilia's distinctive methodology—creating inhabitable systems that honor the full spectrum of human experience rather than reducing it to mechanical efficiency or societal norms. His work consistently refuses false dichotomies between technological advancement and embodied humanity, instead building frameworks where both can mutually reinforce. What distinguishes these systems is their inherent global scalability—rather than developing niche solutions that remain dependent on misaligned global structures, each system is designed as an evolutionary pathway capable of transforming existing patterns while functioning at planetary scale.",
-      paragraph3: (
-        <>
-          Nalenz generally publishes his work through a fictional umbrella
-          organization called{" "}
-          <a
-            href="https://github.com/hermesloom"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-white"
-          >
-            Hermes' Loom
-          </a>
-          —a conceptual framework that weaves together diverse projects into a
-          coherent tapestry of systemic transformation.
-        </>
-      ),
-    },
-    unity: {
-      title: "The Unity of Systems",
-      paragraph1:
-        'Henophilia—from the Greek "hen" (one) and "philia" (love)—creates livable frameworks where seemingly disparate systems converge. These aren\'t mere representations but functional environments where digital architectures, economic models, democratic processes, and political frameworks form cohesive habitats for sustained human participation.',
-      paragraph2:
-        "Unlike temporary installations or conceptual art, these systems are designed for permanent occupation, enabling communities to inhabit alternative socio-economic structures. Each system becomes a microcosm where principles are not just visualized but operationalized for everyday living and collective decision-making.",
-    },
     works: {
       title: "Works",
     },
     methodology: {
-      title: "Systemic Methodology",
-      paragraph1:
-        "The methodology across these works embodies five core principles: participation by default, radical transparency, integration of diverse perspectives, minimal structure, and emergent complexity. Each system starts by eliminating the artificial boundary between creators and users, instead establishing frameworks where everyone becomes a co-creator of the inhabited system.",
-      paragraph2:
-        "Digital components are engineered to serve rather than replace human connection. Technology is utilized precisely where it amplifies participation and transparency, but intentionally withdrawn where direct human relationship would better serve the system's purpose. This creates environments that balance structured guidance with organic adaptation to actual human needs.",
-      paragraph3:
-        "The most distinctive aspect of this methodology is its scale-bridging nature—connecting philosophical principles directly to practical implementation without intermediate abstraction. By modeling governance, communication, and resource allocation systems at human scale, each project demonstrates how alternative social structures can be not merely conceived but immediately inhabited. This eliminates the gap between theory and practice that often prevents transformative ideas from becoming lived reality.",
+      title: "How I work",
+      paragraphs: [
+        "Most importantly, I always work in a cross-disciplinary way. I believe that all subjects are interconnected.",
+        "At least in all the social circles I have experienced in life so far, I can never talk about the full extend of my work. I therefore work primarily autodidactically, i.e. I just teach myself everything I need.",
+      ],
     },
     connect: {
       title: "Connect",

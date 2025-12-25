@@ -16,25 +16,12 @@ export type Translation = {
   tagline: ReactNode;
   works: Work[];
   sections: {
-    artist: {
-      title: string;
-      paragraph1: string;
-      paragraph2: string;
-      paragraph3: string | ReactNode;
-    };
-    unity: {
-      title: string;
-      paragraph1: string;
-      paragraph2: string;
-    };
     works: {
       title: string;
     };
     methodology: {
       title: string;
-      paragraph1: string;
-      paragraph2: string;
-      paragraph3: string;
+      paragraphs: string[];
     };
     connect: {
       title: string;
