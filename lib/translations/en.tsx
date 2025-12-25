@@ -298,6 +298,18 @@ const en: Translation = {
         },
       ],
     },
+    {
+      title: "Der Allgemeine Markt",
+      year: "2025",
+      description:
+        "A community-owned, open-source marketplace concept where platform fees from buying and selling goods are redistributed to fund local education, culture, and shared public spaces instead of private profit.",
+      buttons: [
+        {
+          text: "Blog article",
+          url: "https://blog.hermesloom.org/p/wenn-ich-online-shoppe-tu-ich-meinem",
+        },
+      ],
+    },
   ],
   sections: {
     works: {
