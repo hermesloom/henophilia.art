@@ -94,7 +94,7 @@ const en: Translation = {
       title: "The Global Burn",
       year: "2024",
       description:
-        'The operating system for the Burning Man culture. Currently used as the membership platform for the annual Swedish burn "The Borderland".',
+        'The operating system for the Burning Man culture. Currently used as the membership platform for the Swedish burn "The Borderland", serving >4000 members annually.',
       buttons: [
         {
           text: "GitHub",
