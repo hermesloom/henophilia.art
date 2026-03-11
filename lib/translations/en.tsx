@@ -310,6 +310,18 @@ const en: Translation = {
         },
       ],
     },
+    {
+      title: "OpenFASTER",
+      year: "2026",
+      description:
+        "An interoperable protocol and data exchange standard for Certified Financial Intermediaries (CFIs) to exchange data and events for indirect reporting under MiKaDiv and FASTER. Vendor-independent, based on the ECB's BIRD, with end-to-end encryption.",
+      buttons: [
+        {
+          text: "openfaster.org",
+          url: "https://openfaster.org",
+        },
+      ],
+    },
   ],
   sections: {
     works: {
