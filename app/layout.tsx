@@ -1,43 +1,46 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Fraunces, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const fraunces = Fraunces({
+  variable: "--font-solarpunk-display",
   subsets: ["latin"],
+  weight: ["400", "600", "700", "900"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const dmSans = DM_Sans({
+  variable: "--font-solarpunk-body",
   subsets: ["latin"],
+  weight: ["400", "500", "700"],
 });
 
 export const metadata: Metadata = {
-  title: "Henophilia · Inhabitable Systems Design",
+  title: "Julian Nalenz · Sovereign Infrastructure",
   description:
-    "Designing inhabitable systems that integrate digital, economic, democratic, and political principles into permanent structures for living and community organization.",
+    "Building sovereign infrastructure for allowing all humans to realize their full potential.",
   keywords: [
-    "Henophilia",
+    "Julian Nalenz",
+    "sovereign infrastructure",
+    "solarpunk",
     "systems design",
     "digital democracy",
-    "inhabitable systems",
-    "community organization",
   ],
-  authors: [{ name: "Henophilia" }],
+  authors: [{ name: "Julian Nalenz" }],
   openGraph: {
-    title: "Henophilia · Inhabitable Systems Design",
+    title: "Julian Nalenz · Sovereign Infrastructure",
     description:
-      "Designing inhabitable systems that integrate digital, economic, democratic, and political principles.",
-    url: "https://henophilia.art",
-    siteName: "Henophilia",
+      "Building sovereign infrastructure for allowing all humans to realize their full potential.",
+    url: "https://nalenz.org",
+    siteName: "nalenz.org",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Henophilia · Inhabitable Systems Design",
-    description: "Designing inhabitable systems for community living",
+    title: "Julian Nalenz · Sovereign Infrastructure",
+    description:
+      "Building sovereign infrastructure for allowing all humans to realize their full potential.",
   },
 };
 
@@ -49,7 +52,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${fraunces.variable} ${dmSans.variable} solarpunk-page antialiased`}
       >
         {children}
         <Analytics />
