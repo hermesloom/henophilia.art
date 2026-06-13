@@ -2,6 +2,11 @@
 
 import { motion } from "framer-motion";
 import { works, WORKS_TITLE, CONNECT_TITLE } from "@/lib/works";
+import {
+  watchlist,
+  WATCHLIST_TITLE,
+  WATCHLIST_LAST_UPDATED,
+} from "@/lib/watchlist";
 
 const fadeUp = {
   initial: { opacity: 0, y: 32 },
@@ -420,6 +425,59 @@ export default function Home() {
                   <p className="relative text-sm leading-relaxed text-[#d1fae5]/85 sm:text-base">
                     {area.body}
                   </p>
+                </motion.article>
+              ))}
+            </div>
+          </motion.section>
+
+          {/* Watchlist */}
+          <motion.section className="mb-28 sm:mb-36" {...fadeUp}>
+            <div className="mb-10 flex items-end justify-between gap-4">
+              <h2
+                className="text-3xl font-bold sm:text-4xl"
+                style={{ fontFamily: "var(--font-solarpunk-display)" }}
+              >
+                <span className="solarpunk-gradient-text">
+                  {WATCHLIST_TITLE}
+                </span>
+              </h2>
+              <span className="text-sm text-[#2dd4bf]/70">
+                Last updated {WATCHLIST_LAST_UPDATED}
+              </span>
+            </div>
+
+            <div className="grid gap-4 sm:gap-5">
+              {watchlist.map((item, i) => (
+                <motion.article
+                  key={item.url}
+                  className="solarpunk-card-glow solarpunk-glass group rounded-2xl p-6 transition-transform duration-300 hover:scale-[1.01] sm:p-7"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-40px" }}
+                  transition={{
+                    delay: Math.min(i * 0.04, 0.4),
+                    duration: 0.5,
+                  }}
+                >
+                  <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                    <h3
+                      className="text-xl font-semibold text-[#ffd166] sm:text-2xl"
+                      style={{
+                        fontFamily: "var(--font-solarpunk-display)",
+                      }}
+                    >
+                      {item.label}
+                    </h3>
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="solarpunk-social-btn inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-xs font-medium text-[#f0fdf4] sm:text-sm"
+                    >
+                      {item.url.replace(/^https?:\/\//, "")}
+                      <ExternalLinkIcon />
+                    </a>
+                  </div>
                 </motion.article>
               ))}
             </div>
