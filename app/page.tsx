@@ -387,12 +387,32 @@ export default function Home() {
                 of The Borderland at 22. I saw that the way how we design and
                 run software directly influences the health of the people. I
                 stand for more trust, more sovereignty, more decentralization,
-                more art, more effective resource use, more democracy, less AI
-                and less accumulation of capital. I already saw so much beauty
-                in the world, and I want to empower everyone to make full use of
-                all the stunning possibilities we have in the world. Bureaucracy
-                too often stands in the way. Personally, I do all my cybermagic only because I want to live in nature and
+                more art, more effective resource use, more democracy, a more
+                holistic understanding of wealth, less AI and less accumulation
+                of primitive forms of capital like money and property. I already
+                saw so much beauty in the world, and I want to empower everyone
+                to make full use of all the stunning possibilities we have in
+                the world. Bureaucracy too often stands in the way. Personally,
+                I do all my cybermagic only because I want to live in nature and
                 never have to work on a desk or in front of a screen again.
+              </p>
+              <p className="text-lg leading-relaxed text-[#d1fae5]/90 sm:text-xl">
+                I consider myself a polymath too, but the way how I intend to
+                integrate all of my different interests is to create universal
+                administrative software. My intention is: "everyone should
+                become able to found and operate anything", no matter if they
+                are self-employed or want to create an association or company,
+                no matter how local or international, no matter what they offer
+                or produce. With that, instead of getting lost in realizing more
+                specific skills (all of which would require administrative
+                structures later to be brought into reality anyway), I work on
+                the practical open source operational meta-layerfirst, which is
+                going to be the gateway for me and everyone else in the world to
+                eventually not just learn about but actually act out and earn
+                money with a very diverse set of skills, so that both me and
+                everyone else can realize their full potential in regards to
+                production of good and services instead of being stuck as a
+                specialized employee.
               </p>
             </div>
           </motion.section>
@@ -490,70 +510,68 @@ export default function Home() {
                 className="text-3xl font-bold sm:text-4xl"
                 style={{ fontFamily: "var(--font-solarpunk-display)" }}
               >
-                <span className="solarpunk-gradient-text">
-                {WORKS_TITLE}
+                <span className="solarpunk-gradient-text">{WORKS_TITLE}</span>
+              </h2>
+              <span className="text-sm text-[#2dd4bf]/70">
+                {works.length} projects
               </span>
-            </h2>
-            <span className="text-sm text-[#2dd4bf]/70">
-              {works.length} projects
-            </span>
-          </div>
+            </div>
 
-          <div className="grid gap-4 sm:gap-5">
-            {works.map((work, i) => (
-              <motion.article
-                key={work.title}
-                className="solarpunk-card-glow solarpunk-glass group rounded-2xl p-6 transition-transform duration-300 hover:scale-[1.01] sm:p-7"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-40px" }}
-                transition={{
-                  delay: Math.min(i * 0.04, 0.4),
-                  duration: 0.5,
-                }}
-              >
-                <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
-                  <div className="min-w-0 flex-1">
-                    <div className="mb-2 flex flex-wrap items-center gap-3">
-                      <h3
-                        className="text-xl font-semibold text-[#ffd166] sm:text-2xl"
-                        style={{
-                          fontFamily: "var(--font-solarpunk-display)",
-                        }}
-                      >
-                        {work.title}
-                      </h3>
-                      <span className="rounded-full border border-[#2dd4bf]/30 bg-[#2dd4bf]/10 px-3 py-0.5 text-xs tracking-wider text-[#2dd4bf]">
-                        {work.year}
-                      </span>
+            <div className="grid gap-4 sm:gap-5">
+              {works.map((work, i) => (
+                <motion.article
+                  key={work.title}
+                  className="solarpunk-card-glow solarpunk-glass group rounded-2xl p-6 transition-transform duration-300 hover:scale-[1.01] sm:p-7"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-40px" }}
+                  transition={{
+                    delay: Math.min(i * 0.04, 0.4),
+                    duration: 0.5,
+                  }}
+                >
+                  <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                    <div className="min-w-0 flex-1">
+                      <div className="mb-2 flex flex-wrap items-center gap-3">
+                        <h3
+                          className="text-xl font-semibold text-[#ffd166] sm:text-2xl"
+                          style={{
+                            fontFamily: "var(--font-solarpunk-display)",
+                          }}
+                        >
+                          {work.title}
+                        </h3>
+                        <span className="rounded-full border border-[#2dd4bf]/30 bg-[#2dd4bf]/10 px-3 py-0.5 text-xs tracking-wider text-[#2dd4bf]">
+                          {work.year}
+                        </span>
+                      </div>
+                      <p className="text-sm leading-relaxed text-[#a7f3d0]/80 sm:text-base">
+                        {work.description}
+                      </p>
                     </div>
-                    <p className="text-sm leading-relaxed text-[#a7f3d0]/80 sm:text-base">
-                      {work.description}
-                    </p>
+                    <div className="flex shrink-0 flex-wrap gap-2 sm:max-w-[220px] sm:justify-end">
+                      {work.buttons?.map((button, index) => (
+                        <a
+                          key={index}
+                          href={button.url}
+                          target={
+                            button.url.startsWith("/") ? undefined : "_blank"
+                          }
+                          rel={
+                            button.url.startsWith("/")
+                              ? undefined
+                              : "noopener noreferrer"
+                          }
+                          className="solarpunk-social-btn inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-xs font-medium text-[#f0fdf4] sm:text-sm"
+                        >
+                          {button.text}
+                          <ExternalLinkIcon />
+                        </a>
+                      ))}
+                    </div>
                   </div>
-                  <div className="flex shrink-0 flex-wrap gap-2 sm:max-w-[220px] sm:justify-end">
-                    {work.buttons?.map((button, index) => (
-                      <a
-                        key={index}
-                        href={button.url}
-                        target={
-                          button.url.startsWith("/") ? undefined : "_blank"
-                        }
-                        rel={
-                          button.url.startsWith("/")
-                            ? undefined
-                            : "noopener noreferrer"
-                        }
-                        className="solarpunk-social-btn inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-xs font-medium text-[#f0fdf4] sm:text-sm"
-                      >
-                        {button.text}
-                        <ExternalLinkIcon />
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              </motion.article>
-            ))}
+                </motion.article>
+              ))}
             </div>
           </motion.section>
 
@@ -563,9 +581,7 @@ export default function Home() {
               className="mb-8 text-3xl font-bold sm:text-4xl"
               style={{ fontFamily: "var(--font-solarpunk-display)" }}
             >
-              <span className="solarpunk-gradient-text">
-                {CONNECT_TITLE}
-              </span>
+              <span className="solarpunk-gradient-text">{CONNECT_TITLE}</span>
             </h2>
 
             <div className="solarpunk-card-glow solarpunk-glass rounded-2xl p-8 sm:p-10">
