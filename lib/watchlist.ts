@@ -23,4 +23,16 @@ export const watchlist: WatchlistItem[] = [
     label: "Taler Systems",
     url: "https://taler-systems.com/en/index.html",
   },
+  {
+    label: "Hets",
+    url: "http://hets.eu/",
+  },
+  {
+    label: "Ideas for a Standard for Federated Resource Exchange",
+    url: "https://docs.google.com/document/d/1yJVLV2l3UWQFi42PHAKpuwO1GXMbvu-CGnxrNEztbts/edit?tab=t.0",
+  },
+  {
+    label: "Parallel",
+    url: "https://buildwithparallel.com/",
+  },
 ];
