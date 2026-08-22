@@ -396,7 +396,7 @@ export default function Home() {
                 I do all my cybermagic only because I want to live in nature and
                 never have to work on a desk or in front of a screen again.
               </p>
-              <p className="text-lg leading-relaxed text-[#d1fae5]/90 sm:text-xl">
+              <p className="mt-6 text-lg leading-relaxed text-[#d1fae5]/90 sm:text-xl">
                 I consider myself a polymath too, but the way how I intend to
                 integrate all of my different interests is to create universal
                 administrative software. My intention is: "everyone should
