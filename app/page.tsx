@@ -405,14 +405,16 @@ export default function Home() {
                 no matter how local or international, no matter what they offer
                 or produce. With that, instead of getting lost in realizing more
                 specific skills (all of which would require administrative
-                structures later to be brought into reality anyway), I work on
-                the practical open source operational meta-layerfirst, which is
-                going to be the gateway for me and everyone else in the world to
-                eventually not just learn about but actually act out and earn
-                money with a very diverse set of skills, so that both me and
-                everyone else can realize their full potential in regards to
-                production of good and services instead of being stuck as a
-                specialized employee.
+                structures later to be brought into reality anyway, both
+                internally and externally, both to interface with other people
+                and businesses and with governments), I work on the practical
+                open source operational meta-layer first, which is going to be
+                the gateway for me and everyone else in the world to eventually
+                not just learn about but actually act out and earn money with a
+                very diverse set of skills, so that both me and everyone else
+                can realize their full potential in regards to production of
+                good and services without needing to worry about bureaucracy and
+                business administration.
               </p>
             </div>
           </motion.section>
