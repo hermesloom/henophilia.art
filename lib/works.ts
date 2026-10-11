@@ -227,4 +227,11 @@ export const works: Work[] = [
       "An interoperable protocol and data exchange standard for Certified Financial Intermediaries (CFIs) to exchange data and events for indirect reporting under MiKaDiv and FASTER. Vendor-independent, based on the ECB's BIRD, with end-to-end encryption.",
     buttons: [{ text: "openfaster.org", url: "https://openfaster.org" }],
   },
+  {
+    title: "BOOTSTRAP",
+    year: "2026",
+    description:
+      "A manifesto for the free human. They say: that's just how people are. We say: that's how they were made. Against quiet paternalism, for self-authorship, and for taking the will of a child exactly as seriously as the will of an adult.",
+    buttons: [{ text: "superreality.si", url: "https://superreality.si" }],
+  },
 ];
