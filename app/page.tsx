@@ -241,7 +241,7 @@ const socials = [
   },
   {
     label: "X",
-    href: "https://x.com/henophilia",
+    href: "https://x.com/sigalor",
     text: "X",
     icon: (
       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
